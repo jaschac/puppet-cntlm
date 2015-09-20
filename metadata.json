@@ -29,5 +29,5 @@
   "source": "https://github.com/jaschac/puppet-cntlm",
   "summary": "Deploys the cNTLM authentication proxy",
   "tags":["cntlm", "debian", "ntlm", "proxy"],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

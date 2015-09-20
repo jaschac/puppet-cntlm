@@ -103,7 +103,7 @@ cntlm::params::user:
   passwordlm: 'QWERTY'
   passwordnt: 'ASDFG'
   passwordntlm2: 'ZXCVB'
-  username: 'jascha'`
+  username: 'jascha'
 ```
 Once configured, deploying cNTLM on a node is as easy as:
 
