@@ -1,0 +1,33 @@
+{
+  "author" : "Jascha Casadio",
+  "dependencies" : [
+    {
+      "name" : "puppetlabs-stdlib",
+      "version_requirement" : ">= 4.7.0"
+    }
+  ],
+  "description": "Deploys the cNTLM Authentication Proxy",
+  "issues_url": "https://github.com/jaschac/puppet-cntlm",
+  "license": "Apache-2.0",
+  "name": "lostinmalloc-cntlm",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8" 
+      ]
+    }   
+  ],
+  "project_page": "https://github.com/jaschac/puppet-cntlm",
+  "requirements": [
+    {   
+      "name": "puppet",
+      "version_requirement": ">=4.0.0 <5.0.0"
+    }
+  ],
+  "source": "https://github.com/jaschac/puppet-cntlm",
+  "summary": "Deploys the cNTLM authentication proxy",
+  "tags":["cntlm", "debian", "ntlm", "proxy"],
+  "version": "1.0.0"
+}
