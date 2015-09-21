@@ -3,7 +3,7 @@ class cntlm::params
   (
     Struct[{
       proxy_port => String[1,6],
-      proxy_url  => String[1,default[,
+      proxy_url  => String[1,default],
     }] $cntlm,
     String[1,default] $config_file,
     String[1,default] $config_template,

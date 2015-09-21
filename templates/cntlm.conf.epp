@@ -44,7 +44,7 @@ NoProxy		localhost, 127.0.0.*, 10.*, 192.168.*
 # the appropriate IP address also in format <local_ip>:<local_port>
 # Cntlm listens on 127.0.0.1:3128 by default
 #
-Listen		<%= $::cntlm::cntlm::proxy_url %>:<%= $::cntlm::cntlm::proxy_port %>
+Listen		<%= $::cntlm::cntlm[proxy_url] %>:<%= $::cntlm::cntlm[proxy_port] %>
 
 # If you wish to use the SOCKS5 proxy feature as well, uncomment
 # the following option. It can be used several times
