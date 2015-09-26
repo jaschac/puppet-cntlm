@@ -69,7 +69,7 @@ This module requires **Puppet 4**.
 
 In terms of dependencies, the following modules are required:
 
- - puppetlabs-stdlib >= 4.7.0
+ - puppetlabs-stdlib >= 2.2.1 <= 4.9.0
 
 ## Usage
 lostinmalloc-cntlm expects all the data to be provided through Hiera. Here is an example:

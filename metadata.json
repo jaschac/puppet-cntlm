@@ -3,7 +3,7 @@
   "dependencies" : [
     {
       "name" : "puppetlabs-stdlib",
-      "version_requirement" : ">= 4.7.0"
+      "version_requirement" : ">= 2.2.1 <= 4.9.0"
     }
   ],
   "description": "Deploys the cNTLM Authentication Proxy",
@@ -28,6 +28,6 @@
   ],
   "source": "https://github.com/jaschac/puppet-cntlm",
   "summary": "Deploys the cNTLM authentication proxy",
-  "tags":["cntlm", "debian", "ntlm", "proxy"],
-  "version": "1.0.2"
+  "tags":["cntlm", "ntlm", "proxy"],
+  "version": "1.0.3"
 }
